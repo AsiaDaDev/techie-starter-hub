@@ -1,0 +1,128 @@
+/* ---RESET--- 
+    The reset styles were taken from the HTML5 Doctor CSS Reset Stlyesheet by Richard Clark. 
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ box-sizing: border-box;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+body {
+    line-height:1;
+   }
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+   }
+
+nav ul {
+    list-style-type:none;
+   }
+
+a {
+ margin:0;
+ padding:0;
+ font-size:100%;
+ text-decoration: none;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+img {
+    width: 100%;
+}
+
+/* ---FONTS--- 
+    Fonts taken from Google Fonts and embeded using the <link> tag. 
+    * Zilla Slab - 600 and 700
+    Used for headlines and interactive elements like button font and links.
+    * Poppins - 400 and 500
+    Used for body text.
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+}
+
+a {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+}
+
+p, figcaption {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---LAYOUT---
+    Layout structure for the site.
+
+    ---COLORS---
+    * Main Color - Powder Blue (#C5E7E8)
+    * Dark Color - Dark Slate Gray (#1D3557)
+    * Light Color - Whitesmoke (#F7F4F4)
+*/
+
+/* Utility Classes */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Nav Bar */
+.navbar {
+    background-color: #C5E7E8;
+    height: 148px;
+}
+
+.nav-container {
+    min-height: 72px;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header-logo {
+    min-width: 132px;
+    min-height: 80px;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu a {
+    font-size: 1.25em;
+    color: #1D3557;
+    padding: 0 24px;
+    margin: 0 8px;
+}
+
+.nav-menu a:hover {
+    font-weight: 700;
+}
+
+.nav-menu a:active {
+    font-weight: 700;
+}

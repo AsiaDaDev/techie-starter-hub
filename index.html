@@ -4,46 +4,256 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Zilla+Slab:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Techie Starter Hub | Developer Resource for the Videogame Inclined</title>
+    <title>Techie Starter Hub | Developer Resource for RPG Enthusiasts</title>
 </head>
 <body>
     <!--Nav Bar-->
     <div class="navbar">
-        <a href="index.html">
+        <div class="nav-container flex">
+            <a href="index.html">
+                <img src="./assets/techie-starter-hub-logo.svg" 
+                alt="Techie Starter Hub" 
+                class="header-logo" />
+            </a>
+            <nav class="nav-menu">
+                <ul class="flex">
+                    <li>
+                        <a href="./pages/guides.html">
+                            Guides
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/roadmaps.html">
+                            Roadmaps
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/projects.html">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/community.html">
+                            Community
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/about.html">
+                           About 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--Home Content-->
+    <main class="home-content">
+        <div class="landing-page-elements">
+            <section>
+                <h1>Get Started on your Tech Journey</h1>
+                <p>Coding is complicated... There’s a lot of features, specs, and software to keep in mind and a lot of ideas in your head. 
+                    Techie Starter Hub contains a collection of guides, walkthroughs, resources, and roadmaps to get you on your journey, wherever that might be. 
+                </p>
+                <button type="button">
+                    Learn More
+                </button>
+            </section>
+            <img src="./assets/home-illustration.svg"
+            alt="stressed man working ilustration"
+            class="home-illustration" />
+        </div>
+        <div class="service-call-out-elements">
+            <section>
+                <p>
+                    Whether you’re a beginner just starting out or a professional in the field the hubs formatted guides and community updates will get you going.
+                </p>
+                <figure>
+                    <img src="./assets/guide-icon.svg"
+                    alt="website icon"
+                    class="service-icon"
+                    />
+                    <figcaption>
+                        Consistently Updated Guides
+                    </figcaption>
+                <figure>
+                    <img src="./assets/roadmap-icon.svg"
+                    alt="roadmap icon"
+                    class="service-icon"
+                    />
+                    <figcaption>
+                        Comprehensive Roadmaps
+                    </figcaption>
+                <figure>
+                    <img src="./assets/project-icon.svg"
+                    alt="project icon"
+                    class="service-icon"
+                    />
+                    <figcaption>
+                        Multiple In-Depth Projects
+                    </figcaption>
+                </figure>
+            </section>
+        </div>
+        <div class="community-elements">
+            <section>
+                <h1>Get Involved with the Community</h1>
+                <p>Always wanted to be apart of the tech community but had no idea where to start? 
+                    Check out our community tab where you can find the latest updates, big changes on the way, and connect with others on their journey.
+                </p>
+                <button type="button">
+                    See More
+                </button>
+            </section>
+            <img src="./assets/community-illustration.svg"
+            alt="woman collaborating with others online illustration"
+            class="community-illustration"/>
+        </div>
+        <div class="library-elements">
+            <h1>Growing Library of Languages, Concepts and Software</h1>
+            <div class="library-card-container">
+                <div class="library-card html5-card">
+                    <h1>HTML5</h1>
+                    <img src="./assets/library-icons/html-icon.svg" 
+                    alt="HTML5 icon" 
+                    class="card-icon"/>
+                </div>
+                <div class="library-card html5-card">
+                    <h1>HTML5</h1>
+                    <img src="./assets/library-icons/html-icon.svg" 
+                    alt="HTML5 icon" 
+                    class="card-icon"/>
+                </div>
+                <div class="library-card html5-card">
+                    <h1>HTML5</h1>
+                    <img src="./assets/library-icons/html-icon.svg" 
+                    alt="HTML5 icon" 
+                    class="card-icon"/>
+                </div>
+                <div class="library-card html5-card">
+                    <h1>HTML5</h1>
+                    <img src="./assets/library-icons/html-icon.svg" 
+                    alt="HTML5 icon" 
+                    class="card-icon"/>
+                </div>
+                <div class="library-card html5-card">
+                    <h1>HTML5</h1>
+                    <img src="./assets/library-icons/html-icon.svg" 
+                    alt="HTML5 icon" 
+                    class="card-icon"/>
+                </div>
+                <div class="library-card html5-card">
+                    <h1>HTML5</h1>
+                    <img src="./assets/library-icons/html-icon.svg" 
+                    alt="HTML5 icon" 
+                    class="card-icon"/>
+                </div>
+                <div class="library-card html5-card">
+                    <h1>HTML5</h1>
+                    <img src="./assets/library-icons/html-icon.svg" 
+                    alt="HTML5 icon" 
+                    class="card-icon"/>
+                </div>
+                <div class="library-card html5-card">
+                    <h1>HTML5</h1>
+                    <img src="./assets/library-icons/html-icon.svg" 
+                    alt="HTML5 icon" 
+                    class="card-icon"/>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter-elements">
+            <h1>The Hub is Always Growing</h1>
+            <div class="newsletter">
+                <h1>Stay In Tune with the Hub</h1>
+                <p>Sign up for the newsletter to stay up to date with guides and tech updates.</p>
+                <form action="" class="newsletter">
+                    <label for="name">
+                        Name
+                    </label><br>
+                    <input type="text"
+                    id="name"
+                    name="name"><br>
+
+                    <label for="email">
+                        Email
+                    </label><br>
+                    <input type="email"
+                    id="email"
+                    name="email"><br>
+
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="logo-copyright-info">
             <img src="./assets/techie-starter-hub-logo.svg" 
             alt="Techie Starter Hub" 
-            class="logo" />
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./pages/guides.html">
-                        Guides
-                    </a>
-                </li>
-                <li>
-                    <a href="./pages/roadmaps.html">
-                        Roadmaps
-                    </a>
-                </li>
-                <li>
-                    <a href="./pages/projects.html">
-                        Projects
-                    </a>
-                </li>
-                <li>
-                    <a href="./pages/community.html">
-                        Community
-                    </a>
-                </li>
-                <li>
-                    <a href="./pages/about.html">
-                       About 
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+            class="footer-logo"/>
+            <p>Made by Asia B the Techie</p>
+            <p>&copy; Copyright 2021</p>
+        </div>
+        <div class="privacy-policy-resources">
+            <a href="./pages/privacy-policy.html" 
+            class="privacy-policy">
+                Privacy Policy
+            </a>
+            <a href="./pages/resources.html" 
+            class="resources">
+                Resources
+            </a>
+        </div>
+        <div class="social-media-icons">
+            <img src="./assets/social-media-icons/white-facebook-logo.svg" 
+            alt="link to facebook account" 
+            class="social-media-icon facebook-icon">
+            <img src="./assets/social-media-icons/white-instagram-logo.svg" 
+            alt="link to instagram account" 
+            class="social-media-icon instagram-icon">
+            <img src="./assets/social-media-icons/white-youtube-logo.svg" 
+            alt="link to youtube account" 
+            class="social-media-icon youtube-icon">
+            <img src="./assets/social-media-icons/white-twitter-logo.svg" 
+            alt="link to twitter account" 
+            class="social-media-icon twitter-icon">
+        </div>
+        <div class="footer-link-container">
+            <nav class="nav-menu">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="./pages/guides.html">
+                            Guides
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./pages/roadmaps.html">
+                            Roadmaps
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./pages/projects.html">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./pages/community.html">
+                            Community
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./pages/about.html">
+                           About 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
