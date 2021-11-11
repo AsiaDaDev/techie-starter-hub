@@ -90,6 +90,16 @@ p, figcaption {
     height: 100%;
 }
 
+.grid {
+    display: grid;
+}
+
+/* General Styles */
+
+.section-header {
+    font-size:  2rem;
+}
+
 /* Nav Bar */
 .navbar {
     background-color: #C5E7E8;
@@ -125,4 +135,55 @@ p, figcaption {
 
 .nav-menu a:active {
     font-weight: 700;
+}
+
+/*
+    ---HOME PAGE CONTENT---
+*/
+/* Landing Page Elements*/
+
+.landing-page-elements {
+    grid-template-columns: 50% 50%;
+}
+
+/* Service Call Out Elements */ 
+
+.service-icon {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+/* Community Elements*/ 
+.community-page-elements {
+    grid-template-columns: auto auto;
+}
+
+/* Library Elements*/ 
+.library-card-container {
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.card-icon {
+    max-width: 96px;
+    max-height: 96px;
+}
+
+/* Footer Elements */
+footer {
+    background-color: #1D3557;
+}
+
+.footer-logo {
+    max-width: 180px;
+    min-height: 108px;
+}
+
+.social-media-icon {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+footer p, a {
+    color: #F7F4F4;
 }

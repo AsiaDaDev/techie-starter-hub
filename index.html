@@ -15,7 +15,7 @@
     <div class="navbar">
         <div class="nav-container flex">
             <a href="index.html">
-                <img src="./assets/techie-starter-hub-logo.svg" 
+                <img src="./assets/techie-starter-hub-nav-logo.svg" 
                 alt="Techie Starter Hub" 
                 class="header-logo" />
             </a>
@@ -52,15 +52,16 @@
     </div>
     <!--Home Content-->
     <main class="home-content">
-        <div class="landing-page-elements">
+        <div class="landing-page-elements grid">
             <section>
-                <h1>Get Started on your Tech Journey</h1>
+                <h1 class="section-header">Get Started on your Tech Journey</h1>
                 <p>Coding is complicated... There’s a lot of features, specs, and software to keep in mind and a lot of ideas in your head. 
                     Techie Starter Hub contains a collection of guides, walkthroughs, resources, and roadmaps to get you on your journey, wherever that might be. 
                 </p>
-                <button type="button">
+                <a href="./pages/guides.html"
+                    class="btn">
                     Learn More
-                </button>
+                </a>
             </section>
             <img src="./assets/home-illustration.svg"
             alt="stressed man working ilustration"
@@ -71,36 +72,41 @@
                 <p>
                     Whether you’re a beginner just starting out or a professional in the field the hubs formatted guides and community updates will get you going.
                 </p>
-                <figure>
-                    <img src="./assets/guide-icon.svg"
-                    alt="website icon"
-                    class="service-icon"
-                    />
-                    <figcaption>
-                        Consistently Updated Guides
-                    </figcaption>
-                <figure>
-                    <img src="./assets/roadmap-icon.svg"
-                    alt="roadmap icon"
-                    class="service-icon"
-                    />
-                    <figcaption>
-                        Comprehensive Roadmaps
-                    </figcaption>
-                <figure>
-                    <img src="./assets/project-icon.svg"
-                    alt="project icon"
-                    class="service-icon"
-                    />
-                    <figcaption>
-                        Multiple In-Depth Projects
-                    </figcaption>
-                </figure>
+                <div class="service-icon-container flex">
+                    <figure>
+                        <img src="./assets/guide-icon.svg"
+                        alt="website icon"
+                        class="service-icon"
+                        />
+                        <figcaption>
+                            Consistently Updated Guides
+                        </figcaption>
+                    <figure>
+                        <img src="./assets/roadmap-icon.svg"
+                        alt="roadmap icon"
+                        class="service-icon"
+                        />
+                        <figcaption>
+                            Comprehensive Roadmaps
+                        </figcaption>
+                    <figure>
+                        <img src="./assets/project-icon.svg"
+                        alt="project icon"
+                        class="service-icon"
+                        />
+                        <figcaption>
+                            Multiple In-Depth Projects
+                        </figcaption>
+                    </figure>
+                </div>
             </section>
         </div>
-        <div class="community-elements">
+        <div class="community-page-elements grid">
+            <img src="./assets/community-illustration.svg"
+            alt="woman collaborating with others online illustration"
+            class="community-illustration"/>
             <section>
-                <h1>Get Involved with the Community</h1>
+                <h1 class="section-header">Get Involved with the Community</h1>
                 <p>Always wanted to be apart of the tech community but had no idea where to start? 
                     Check out our community tab where you can find the latest updates, big changes on the way, and connect with others on their journey.
                 </p>
@@ -108,13 +114,10 @@
                     See More
                 </button>
             </section>
-            <img src="./assets/community-illustration.svg"
-            alt="woman collaborating with others online illustration"
-            class="community-illustration"/>
         </div>
         <div class="library-elements">
-            <h1>Growing Library of Languages, Concepts and Software</h1>
-            <div class="library-card-container">
+            <h1 class="section-header">Growing Library of Languages, Concepts and Software</h1>
+            <div class="library-card-container grid">
                 <div class="library-card html5-card">
                     <h1>HTML5</h1>
                     <img src="./assets/library-icons/html-icon.svg" 
@@ -166,7 +169,7 @@
             </div>
         </div>
         <div class="newsletter-elements">
-            <h1>The Hub is Always Growing</h1>
+            <h1 class="section-header">The Hub is Always Growing</h1>
             <div class="newsletter">
                 <h1>Stay In Tune with the Hub</h1>
                 <p>Sign up for the newsletter to stay up to date with guides and tech updates.</p>
@@ -193,7 +196,7 @@
     <!--Footer-->
     <footer>
         <div class="logo-copyright-info">
-            <img src="./assets/techie-starter-hub-logo.svg" 
+            <img src="./assets/techie-starter-hub-footer-logo.svg" 
             alt="Techie Starter Hub" 
             class="footer-logo"/>
             <p>Made by Asia B the Techie</p>
