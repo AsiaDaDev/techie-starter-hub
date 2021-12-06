@@ -103,17 +103,19 @@ p, figcaption {
 /* Nav Bar */
 .navbar {
     background-color: #C5E7E8;
-    height: 148px;
 }
 
 .nav-container {
     min-height: 72px;
+    height: 96px;
     max-width: 1400px;
     margin: 0 auto;
     justify-content: space-between;
 }
 
 .header-logo {
+    width: 80px;
+    height: 80px;
     min-width: 132px;
     min-height: 80px;
 }
